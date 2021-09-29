@@ -11,7 +11,7 @@
   &:before {
     content: url('../../img/decorpoint.png');
     position: absolute;
-    top: 55px;
+    top: rem(55px);
     right: 0;
     transform: translateX(50%);
   }

@@ -1,8 +1,8 @@
 .btn {
-  font-style: 16px;
+  font-style: rem(16px);
   padding: rem(18px) rem(40px);
   text-transform: uppercase;
-  border-radius: 100px;
+  border-radius: rem(100px);
   line-height: 1;
   font-weight: bold;
   border: none;

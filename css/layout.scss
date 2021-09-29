@@ -1,3 +1,15 @@
+html {
+  font-size: 18px;
+
+  @include tablets {
+    font-size: 17px;
+  }
+
+  @include tphones {
+    font-size: 16px;
+  }
+}
+
 html,
 body {
   height: 100%;
@@ -17,7 +29,7 @@ body {
 
 .container {
   width: 95%;
-  max-width: 1100px;
+  max-width: rem(1100px);
   margin: 0 auto;
 }
 
