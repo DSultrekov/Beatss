@@ -1,0 +1,30 @@
+.benefits {
+  display: flex;
+}
+
+.benefits__item {
+  flex: 1;
+  padding: 0 -5%;
+  position: relative;
+  list-style: none;
+
+  &:before {
+    content: url('../../img/decorpoint.png');
+    position: absolute;
+    top: 55px;
+    right: 0;
+    transform: translateX(50%);
+  }
+
+  &:first-child {
+    padding-left: 0;
+  }
+
+  &:last-child {
+    padding-right: 0;
+
+    &::before {
+      display: none;
+    }
+  }  
+}
