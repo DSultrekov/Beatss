@@ -5,8 +5,10 @@
 }
 
 .menu {
+  font-size: $baseFontSize - 3px;
+
   @include tablets {
-    display: none ;
+    display: none;
   }
 }
 
@@ -36,9 +38,7 @@
 }
 
 .header__phone-number {
-  @include tablets {
-    display: none;
-  }
+  display: none;
 }
 
 .phone-number__icon-elem {
@@ -46,5 +46,3 @@
   font-style: normal;
   font-weight: normal;
 }
-
-

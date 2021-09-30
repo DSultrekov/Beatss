@@ -1,9 +1,14 @@
+.question--container {
+  max-width: rem($containerWidth) + rem(80px);
+}
+
 .headline {
   text-align: center;
   padding-bottom: rem(62px);
 }
 
 .headline__title {
+  color: #292929;
   margin-bottom: rem(15px);
 }
 

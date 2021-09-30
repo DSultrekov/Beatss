@@ -19,12 +19,13 @@
 }
 
 .hero__container {
-  background: url('../img/headphones.png') right 10% center/ 46% auto no-repeat;
+  background: url('../img/headphones.png') top 50% right  / 54% auto no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;  
-  padding: rem(24px) rem(80px) rem(50px) rem(105px);
+  padding-top: rem(24px);
+  padding-bottom: rem(50px);
 }
 
 .hero__main-title {
@@ -36,7 +37,7 @@
 }
 
 .hero__title-desc {
-  font-size: rem(21px);
-  margin-bottom: rem(36px);
+  font-size: rem($baseFontSize);
+  margin-bottom: rem(54px);
   line-height: 1.2;
 }

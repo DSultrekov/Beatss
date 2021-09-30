@@ -1,11 +1,19 @@
-// breakpoints
-$tablets: 768px;
+$containerWidth: 915px;
+$baseFontSize: 18px;
+
+//breakpoints
+$tablets: 785px;
 $phones: 480px;
 
-@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+// normalize
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.scss');
 @import './media.scss';
+
+// setups
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 @import './layout.scss';
+
+// components
 @import './components/hero.scss';
 @import './components/header.scss';
 @import './components/btn.scss';

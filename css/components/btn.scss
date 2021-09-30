@@ -1,5 +1,5 @@
 .btn {
-  font-style: rem(16px);
+  font-size: rem($baseFontSize) - rem(2px);
   padding: rem(18px) rem(40px);
   text-transform: uppercase;
   border-radius: rem(100px);
