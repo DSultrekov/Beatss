@@ -1,5 +1,9 @@
 .benefits {
   display: flex;
+
+  @include phones {
+    flex-direction: column;
+  }
 }
 
 .benefits__item {
@@ -8,12 +12,21 @@
   position: relative;
   list-style: none;
 
+  @include phones {
+    padding: 0;
+    margin-bottom: rem(18px);
+  }
+
   &:before {
     content: url('../../img/decorpoint.png');
     position: absolute;
     top: rem(55px);
     right: 0;
     transform: translateX(50%);
+    
+    @include tablets {
+      content: none;
+    }
   }
 
   &:first-child {

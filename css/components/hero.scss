@@ -16,6 +16,27 @@
 
 .hero__title-section {
   width: 40%;
+
+  @include tablets {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    &::before {
+      content: url('../img/smallheadphones.png');
+      margin-bottom: rem(64px);
+    }
+  }
+}
+
+.hero__icons-section {
+  @include tablets {
+    display: none;
+  }
 }
 
 .hero__container {
@@ -26,6 +47,11 @@
   height: 100%;  
   padding-top: rem(24px);
   padding-bottom: rem(50px);
+  padding-left: rem(22px);
+
+  @include tablets {
+    background: none;
+  }
 }
 
 .hero__main-title {
@@ -34,10 +60,29 @@
   font-weight: bold;
   margin-bottom: rem(22px);
   text-transform: uppercase;
+  
+  @include tablets {
+    padding: rem(0px) rem(52px);
+    font-size: rem(51px);
+  }
+
+  @include phones {
+    font-size: rem(34px);
+  }
 }
 
 .hero__title-desc {
   font-size: rem($baseFontSize);
   margin-bottom: rem(54px);
   line-height: 1.2;
+
+  @include tablets {
+    padding: rem(0px) rem(190px);
+    margin-bottom: 23px;
+  }
+
+  @include phones {
+    padding: 0rem rem(70px);
+    font-size: rem(19px);
+  }
 }

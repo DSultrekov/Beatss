@@ -2,6 +2,10 @@
   position: fixed;
   top: 40%;
   right: 20%;
+  
+  @include tablets {
+  display: none;
+  }
 }
 
 .fixed-menu__list {

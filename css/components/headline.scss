@@ -1,3 +1,14 @@
+.question--section {
+  position: relative;
+
+  &::before {
+    content: url(../img/triangle.png) ;
+    position: absolute;
+    bottom: rem(-24px);
+    left: 18%;
+  }
+}
+
 .question--container {
   max-width: rem($containerWidth) + rem(80px);
 }
@@ -10,10 +21,28 @@
 .headline__title {
   color: #292929;
   margin-bottom: rem(15px);
+
+  @include tablets {
+    font-size: rem(51px);
+    line-height: 1.1;
+  }
+
+  @include phones {
+    font-size: rem(34px);
+  }
 }
 
 .headline__subtitle {
   font-size: rem(16px);
   color: #666;
   padding: rem(0px) 23%;
+
+  @include tablets {
+    padding: rem(0px) 13%;
+  }
+
+  @include phones {
+    font-size: rem(17px);
+    padding: rem(0px) 8%;
+  }
 }

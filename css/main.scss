@@ -3,7 +3,7 @@ $baseFontSize: 18px;
 
 //breakpoints
 $tablets: 785px;
-$phones: 480px;
+$phones: 500px;
 
 // normalize
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.scss');
@@ -28,3 +28,4 @@ $phones: 480px;
 @import './components/order.scss';
 @import './components/radio.scss';
 @import './components/fixed-menu.scss';
+@import './components/hamburger.scss';

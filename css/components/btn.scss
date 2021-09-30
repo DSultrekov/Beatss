@@ -7,6 +7,10 @@
   font-weight: bold;
   border: none;
 
+  @include tablets {
+    padding: rem(23px) rem(45px);
+  }
+
   &--theme--red {
     background: red;
     color: #fff;
@@ -28,3 +32,10 @@
   }
 }
 
+.form__btns {
+  
+  @include tablets {
+    display: flex;
+    justify-content: center;
+  }
+}
