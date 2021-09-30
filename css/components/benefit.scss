@@ -19,7 +19,27 @@
   margin-bottom: rem(24px);
 }
 
-.benefit__icon {
+.bigbattery-icon {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.shout-icon {
+  width: rem(52px);
+  height: rem(52px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.watch-icon {
+  width: rem(60px);
+  height: rem(60px);
   position: absolute;
   top: 50%;
   left: 50%;

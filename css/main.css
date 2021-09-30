@@ -252,6 +252,12 @@ img {
   margin-top: 0.4444444444rem;
 }
 
+.phone-icon {
+  width: 0.7777777778rem;
+  height: 0.7777777778rem;
+  margin-right: 0.3333333333rem;
+}
+
 @media screen and (max-width: 785px) {
   .header__phone-number {
     display: none;
@@ -331,6 +337,21 @@ img {
 
 .feature__icon {
   margin-right: 0.6666666667rem;
+}
+
+.eat-icon {
+  width: 2.2222222222rem;
+  height: 2.2222222222rem;
+}
+
+.battery-icon {
+  width: 2.1111111111rem;
+  height: 2.1111111111rem;
+}
+
+.fork-icon {
+  width: 1.2222222222rem;
+  height: 2.1111111111rem;
 }
 
 .feature__text {
@@ -490,7 +511,29 @@ img {
   margin-bottom: 1.3333333333rem;
 }
 
-.benefit__icon {
+.bigbattery-icon {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.shout-icon {
+  width: 2.8888888889rem;
+  height: 2.8888888889rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.watch-icon {
+  width: 3.3333333333rem;
+  height: 3.3333333333rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -946,6 +989,7 @@ img {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
+    margin: 10px;
   }
 }
 
