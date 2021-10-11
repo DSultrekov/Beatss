@@ -1,0 +1,43 @@
+.team {
+  &--section{
+    position: relative;
+    
+    &::before{
+      content: url(../img/blacksquale.png);
+      position: absolute;
+      top: 0%;
+      right: 15%;
+    }
+  }
+
+  &__title {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 48px;
+  }
+
+  &__list-desktop {
+    display: flex;
+    list-style: none;
+    margin-top: rem(53px);
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__list-desktop {
+    @include tablets {
+      display: none;
+    }
+  }
+
+  &__item {
+    align-items: center;
+    justify-content: center;
+    margin-right: rem(20px);
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+

@@ -10,7 +10,7 @@ $phones: 500px;
 @import './media.scss';
 
 // setups
-@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');;
 @import './layout.scss';
 
 // components
@@ -29,3 +29,5 @@ $phones: 500px;
 @import './components/radio.scss';
 @import './components/fixed-menu.scss';
 @import './components/hamburger.scss';
+@import './components/team.scss';
+@import './components/member.scss';

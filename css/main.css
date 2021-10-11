@@ -999,3 +999,121 @@ img {
   height: 4px;
   border-radius: 10px;
 }
+
+.team--section {
+  position: relative;
+}
+.team--section::before {
+  content: url(../img/blacksquale.png);
+  position: absolute;
+  top: 0%;
+  right: 15%;
+}
+.team__title {
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 48px;
+}
+.team__list-desktop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-top: 2.9444444444rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media screen and (max-width: 785px) {
+  .team__list-desktop {
+    display: none;
+  }
+}
+.team__item {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 1.1111111111rem;
+}
+.team__item:last-child {
+  margin-right: 0;
+}
+
+.member__photo {
+  margin-bottom: 1.3888888889rem;
+}
+@media screen and (max-width: 785px) {
+  .member__photo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.member__photo-log {
+  width: 12.2222222222rem;
+  height: 16.1111111111rem;
+}
+.member__name {
+  font-weight: bold;
+  margin-bottom: 0.6111111111rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  font-size: 18px;
+}
+.member__name-arrow {
+  margin-left: 0.2222222222rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.member__name-arrow_rotated {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.member__description {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.member__description-text {
+  max-width: 12.2222222222rem;
+  font-size: 16px;
+  color: #666666;
+  margin-top: 0.2222222222rem;
+}
+.member__description_visible {
+  opacity: 1;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}

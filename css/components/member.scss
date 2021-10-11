@@ -1,0 +1,57 @@
+.member {
+  &__photo{
+    margin-bottom: rem(25px);
+
+    @include tablets {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
+  &__photo-log {
+    width: rem(220px);
+    height: rem(290px);
+  }
+
+  &__name {
+    font-weight: bold;
+    margin-bottom: rem(11px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+  &__name-arrow {
+    margin-left: rem(4px);
+    transition: all .3s ease-in-out;
+
+    &_rotated {
+      transform: rotate(180deg);
+      transition: all .3s ease-in-out;
+    }
+  }
+
+  &__description{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+
+    &-text {
+      max-width: rem(220px);
+      font-size: 16px;
+      color: #666666;
+      margin-top: rem(4px);
+    }
+
+    &_visible {
+      opacity: 1;
+      transition: all .5s ease-in-out;
+    }
+  }
+}
