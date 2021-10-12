@@ -1,11 +1,6 @@
 .member {
   &__photo{
     margin-bottom: rem(25px);
-
-    @include tablets {
-      display: flex;
-      justify-content: center;
-    }
   }
   
   &__photo-log {
@@ -41,6 +36,10 @@
     flex-direction: column;
     opacity: 0;
     transition: all .3s ease-in-out;
+
+    @include tablets {
+      
+    }
 
     &-text {
       max-width: rem(220px);

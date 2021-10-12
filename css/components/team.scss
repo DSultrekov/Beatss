@@ -23,14 +23,16 @@
     margin-top: rem(53px);
     align-items: center;
     justify-content: center;
-  }
 
-  &__list-desktop {
     @include tablets {
       display: none;
     }
   }
 
+  &__list-tablets {
+    list-style: none;
+    
+  }
   &__item {
     align-items: center;
     justify-content: center;
