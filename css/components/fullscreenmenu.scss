@@ -1,6 +1,5 @@
-.fullscreen-menu {
-  height: 0;
-  overflow: hidden;
+.fullscreen__menu {
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,12 +9,18 @@
   bottom: 0;
   height: 100vh;
   background: #313131;
+  z-index: 10;
+
+  &-active {
+    z-index: 30;
+    transition: all .5s;
+  }
 }
 
 .cross_icon {
   position: absolute;
   right: 10%;
-  top: 510%;
+  top: 10%;
 }
 
 .fullscreen__menu{
