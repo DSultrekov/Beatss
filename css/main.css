@@ -150,6 +150,13 @@ img {
     background: none;
   }
 }
+@media screen and (max-width: 500px) {
+  .hero__container {
+    padding-left: 0.5555555556rem;
+    padding-top: 1.1111111111rem;
+    padding-bottom: 0%;
+  }
+}
 
 .hero__main-title {
   font-size: 2.6666666667rem;
@@ -445,6 +452,7 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-left: 0.5555555556rem;
   }
 }
 
@@ -1163,4 +1171,15 @@ img {
   transition: all 0.5s ease-in-out;
   overflow: visible;
   height: 22.9444444444rem;
+}
+
+@media screen and (max-width: 785px) {
+  .fullscreen-menu {
+    display: none;
+  }
+}
+@media screen and (min-width: 786px) {
+  .fullscreen-menu {
+    display: none;
+  }
 }

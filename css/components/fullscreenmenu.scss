@@ -1,0 +1,9 @@
+.fullscreen-menu {
+  @include tablets {
+    display: none;
+  }
+  
+  @include desktop {
+    display: none;
+  }
+}
