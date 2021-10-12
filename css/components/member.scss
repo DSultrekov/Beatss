@@ -1,6 +1,22 @@
 .member {
   &__photo{
     margin-bottom: rem(25px);
+    
+    &_visible {
+      height: rem(300px);
+      overflow: visible;
+    }
+
+    @include tablets {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 0;
+      overflow: hidden;
+      margin-bottom: 0;
+      
+    }
+
   }
   
   &__photo-log {
@@ -16,6 +32,10 @@
     justify-content: center;
     cursor: pointer;
     font-size: 18px;
+
+    @include tablets {
+      margin-bottom: rem(16px);
+    }
   }
 
   &__name-arrow {
@@ -38,7 +58,13 @@
     transition: all .3s ease-in-out;
 
     @include tablets {
-      
+      position: relative;
+      height: 0;
+      overflow: hidden;
+    }
+
+    &-heading {
+      font-weight: bold;
     }
 
     &-text {
@@ -51,6 +77,8 @@
     &_visible {
       opacity: 1;
       transition: all .5s ease-in-out;
+      overflow: visible;
+      height: rem(100px);
     }
   }
 }

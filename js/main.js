@@ -6,6 +6,7 @@ item.addEventListener('click', function(event){
   const parentEL = event.target.parentElement.parentElement;
   const memberDescription = parentEL.querySelector('.member__description');
   const arrow = parentEL.querySelector('.member__name-arrow');
+  const photo = parentEL.querySelector('member__photo')
 
   if (arrow.classList.contains('member__name-arrow_rotated')){
     arrow.classList.remove('member__name-arrow_rotated');
@@ -19,5 +20,10 @@ item.addEventListener('click', function(event){
     memberDescription.classList.add('member__description_visible');
   }
 
+  if (photo.classList.contains('member__photo_visible')){
+    photo.classList.remove("member__photo_visible");
+  } else {
+    photo.classList.add('member__photo_visible');
+  }
 })
 })
