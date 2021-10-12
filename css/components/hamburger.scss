@@ -5,12 +5,11 @@
   flex-direction: column;
   justify-content: space-between;
   display: none;
-  z-index: 10000;
+  z-index: 10;
 
   &-active {
-    .hamburger__plank {
-      opacity: 0;
-    }
+    z-index: 4;
+    transition: all .5s;
   }
 
   @include tablets {

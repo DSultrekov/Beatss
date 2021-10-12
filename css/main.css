@@ -992,10 +992,12 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
   display: none;
-  z-index: 10000;
+  z-index: 10;
 }
-.hamburger-active .hamburger__plank {
-  opacity: 0;
+.hamburger-active {
+  z-index: 4;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 @media screen and (max-width: 785px) {
   .hamburger {
@@ -1195,12 +1197,10 @@ img {
   bottom: 0;
   height: 100vh;
   background: #313131;
-  z-index: 10;
+  z-index: 5;
 }
 .fullscreen__menu-active {
-  z-index: 30;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  z-index: 10;
 }
 
 .cross_icon {

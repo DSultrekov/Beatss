@@ -9,11 +9,10 @@
   bottom: 0;
   height: 100vh;
   background: #313131;
-  z-index: 10;
+  z-index: 5;
 
   &-active {
-    z-index: 30;
-    transition: all .5s;
+    z-index: 10;
   }
 }
 

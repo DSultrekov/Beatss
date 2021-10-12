@@ -1,15 +1,9 @@
-const btn__hamburger = document.querySelectorAll('.hamburger');
+const hamburger = document.querySelector('.hamburger');
+const menu = document.querySelector('.fullscreen__menu')
 
-btn__hamburger.forEach(item=>{
+function tooglepage(){
+  hamburger.classList.toggle('hamburger-active');
+  menu.classList.toogle('hamburger-active');
+}
 
-item.addEventListener('click', function(event){
-  const parentEL = event.target.parentElement.parentElement;
-  const fullscreenmenu = parentEL.querySelector('.fullscreen__menu');
-
-  if (fullscreenmenu.classList.contains('fullscreen__menu-active')){
-    fullscreenmenu.classList.remove('fullscreen__menu-active');
-  } else {
-    fullscreenmenu.classList.add('fullscreen__menu-active');
-  }
-})
-})
+hamburger.addEventListener('click' , tooglepage);
