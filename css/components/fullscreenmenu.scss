@@ -1,9 +1,32 @@
 .fullscreen-menu {
-  @include tablets {
-    display: none;
+  height: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  background: #313131;
+}
+
+.cross_icon {
+  position: absolute;
+  right: 10%;
+  top: 510%;
+}
+
+.fullscreen__menu{
+  &-list {
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    color: #fff;
+    line-height: 2;
   }
-  
-  @include desktop {
-    display: none;
-  }
+
 }

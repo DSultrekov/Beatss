@@ -6,6 +6,12 @@
   justify-content: space-between;
   display: none;
 
+  &-active {
+    .hamburger__plank {
+      opacity: 0;
+    }
+  }
+
   @include tablets {
     display:inline-flex;
     margin: 10px;
