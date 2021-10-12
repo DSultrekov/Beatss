@@ -84,7 +84,6 @@ img {
   min-height: 36.1111111111rem;
   color: #292929;
   position: relative;
-  z-index: 20;
 }
 .hero::before {
   content: url("../img/decorstick.png");
@@ -992,12 +991,7 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
   display: none;
-  z-index: 10;
-}
-.hamburger-active {
-  z-index: 4;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  z-index: 20;
 }
 @media screen and (max-width: 785px) {
   .hamburger {
@@ -1197,10 +1191,14 @@ img {
   bottom: 0;
   height: 100vh;
   background: #313131;
-  z-index: 5;
+  z-index: -1;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .fullscreen__menu-active {
-  z-index: 10;
+  z-index: 10000;
+  opacity: 1;
 }
 
 .cross_icon {
