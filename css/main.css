@@ -711,13 +711,7 @@ img {
           justify-content: center;
   margin-top: 0.5555555556rem;
 }
-@media screen and (max-width: 785px) {
-  .reviews__switcher {
-    margin-top: 1.7777777778rem;
-  }
-}
-
-.interactive-avatar {
+.reviews__switcher-item {
   width: 4.7777777778rem;
   height: 4.7777777778rem;
   border: 0.3333333333rem solid transparent;
@@ -725,11 +719,16 @@ img {
   overflow: hidden;
   position: relative;
 }
-.interactive-avatar--active {
-  border: 0.2222222222rem solid #E01F3D;
+.reviews__switcher-item.active {
+  border: 4px solid #E01F3D;
+}
+@media screen and (max-width: 785px) {
+  .reviews__switcher {
+    margin-top: 1.7777777778rem;
+  }
 }
 
-.interactive-avatar-link {
+.reviews__switcher-link {
   position: absolute;
   top: 0;
   left: 0;
@@ -738,7 +737,7 @@ img {
   display: block;
 }
 
-.interactive-avatar-img {
+.reviews__switcher-img {
   display: block;
   width: 100%;
   height: 100%;
@@ -1222,4 +1221,42 @@ img {
   list-style: none;
   color: #fff;
   line-height: 2;
+}
+
+.slider--section {
+  background: #f8faf9;
+}
+
+.slider--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.arrowleft__img {
+  margin-right: 1.8333333333rem;
+  top: 0;
+  left: 0;
+  width: 0.7777777778rem;
+  height: 1.5rem;
+}
+
+.headphoness__img {
+  margin-right: 3.1666666667rem;
+}
+
+.settings-img {
+  width: 5.0555555556rem;
+  height: 5.0555555556rem;
+}
+
+.arrowright__img {
+  width: 0.7777777778rem;
+  height: 1.5rem;
 }

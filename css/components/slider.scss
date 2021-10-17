@@ -1,0 +1,30 @@
+.slider--section {
+  background: #f8faf9;
+}
+
+.slider--container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrowleft__img {
+  margin-right: rem(33px);
+  top: 0;
+  left: 0;
+  width: rem(14px);
+  height: rem(27px);
+}
+
+.headphoness__img {
+  margin-right: rem(57px);
+}
+
+.settings-img {
+  width: rem(91px);
+  height: rem(91px);
+}
+.arrowright__img {
+  width: rem(14px);
+  height: rem(27px);
+}

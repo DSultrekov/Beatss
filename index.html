@@ -137,6 +137,37 @@
           </ul>
         </div>
       </section>
+      <section class="section slider--section">
+        <div class="container slider--container">
+          <img src="./img/arrowleft.png" alt="arrowleft" class="arrowleft__img">
+          <img src="./img/headphoness.png" alt="headphoness" class="headphoness__img">
+          <div class="slider__title-section">
+            <img src="./img/settings.png" alt="settings" class="settings-img">
+            <h1 class="slider__main-title">beats solo 3. цвет
+              «атласное серебро»</h1>
+            <div class="slider__title-desc">
+              <p>Беспроводные наушники Beats Solo3 готовы к работе в любой момент. Включите их и поднесите к своему iPhone — они мгновенно подключатся к нему.</p>
+            </div>
+            <div class="slider__description-section">
+              <ul class="slider__features">
+                <li class="slider__features-item">
+                  <div class="features-heading">Зарядка</div>
+                  <div class="features__text">2 часа</div>
+                </li>
+                <li class="slider__features-item">
+                  <div class="features-heading">Зарядка</div>
+                  <div class="features__text">2 часа</div>
+                </li>
+              </ul>
+              <div class="slider__price">
+                <p>14 990 ₽</p>
+                <a href="#" class="btn btn--theme--red">Заказать</a>
+              </div>
+            </div>
+          </div>
+          <img src="./img/arrowright.png" alt="arrowright" class="arrowright__img">
+        </div>
+      </section>
       <section class="section team--section">
         <div class="container">
           <h1 class="team__title">Команда</h1>
@@ -169,8 +200,8 @@
                 </div>
                 <div class="member__description">
                   <p>Специалист по упаковке</p>
-                  <p class="member__description-text">Автор запоминающегося стиля 
-                    наших батончиков.                    
+                  <p class="member__description-text">Автор запоминающегося стиля
+                    наших батончиков.
                   </p>
                 </div>
               </div>
@@ -187,7 +218,7 @@
                 <div class="member__description">
                   <p>Оператор</p>
                   <p class="member__description-text">Разработал дизайн
-                    наушников beats solo 3.                 
+                    наушников beats solo 3.
                   </p>
                 </div>
               </div>
@@ -203,8 +234,8 @@
                 </div>
                 <div class="member__description">
                   <p>PR, маркетинг</p>
-                  <p class="member__description-text">По всем вопросам сотрудничества 
-                    и рекламы писать только Миле.                                       
+                  <p class="member__description-text">По всем вопросам сотрудничества
+                    и рекламы писать только Миле.
                   </p>
                 </div>
               </div>
@@ -235,8 +266,8 @@
                 <div class="member__description">
                   <img src="./img/alla.png" alt="" class="member__photo-logo">
                   <p class="member__description-heading">Специалист по упаковке</p>
-                  <p class="member__description-text">Автор запоминающегося стиля 
-                    наших батончиков.                    
+                  <p class="member__description-text">Автор запоминающегося стиля
+                    наших батончиков.
                   </p>
                 </div>
               </div>
@@ -251,7 +282,7 @@
                   <img src="./img/kirill.png" alt="" class="member__photo-logo">
                   <p class="member__description-heading">Оператор</p>
                   <p class="member__description-text">Разработал дизайн
-                    наушников beats solo 3.                 
+                    наушников beats solo 3.
                   </p>
                 </div>
               </div>
@@ -265,8 +296,8 @@
                 <div class="member__description">
                   <img src="./img/milana.png" alt="" class="member__photo-logo">
                   <p class="member__description-heading">PR, маркетинг</p>
-                  <p class="member__description-text">По всем вопросам сотрудничества 
-                    и рекламы писать только Миле.                                       
+                  <p class="member__description-text">По всем вопросам сотрудничества
+                    и рекламы писать только Миле.
                   </p>
                 </div>
               </div>
@@ -297,19 +328,19 @@
               </div>
             </div>
             <ul class="reviews__switcher">
-              <li class="reviews__switcher-item interactive-avatar interactive-avatar--active">
-                <a href="#" class="interactive-avatar-link">
-                  <img src="./img/billielishicon.png" alt="billi elish" class="interactive-avatar-img">
+              <li class="reviews__switcher-item">
+                <a href="#" class="reviews__switcher-link" data-open="one">
+                  <img src="./img/billielishicon.png" alt="billi elish" class="reviews__switcher-img">
                 </a>
               </li>
-              <li class="reviews__switcher-item interactive-avatar">
-                <a href="#" class="interactive-avatar-link">
-                  <img src="./img/manicon.png" alt="vadim grachev" class="interactive-avatar-img">
+              <li class="reviews__switcher-item">
+                <a href="#" class="reviews__switcher-link" data-open="two">
+                  <img src="./img/manicon.png" alt="vadim grachev" class="reviews__switcher-img">
                 </a>
               </li>
-              <li class="reviews__switcher-item interactive-avatar">
-                <a href="#" class="interactive-avatar-link">
-                  <img src="./img/girlicon.png" alt="maria orlova class=" interactive-avatar-img">
+              <li class="reviews__switcher-item">
+                <a href="#" class="reviews__switcher-link" data-open="three">
+                  <img src="./img/girlicon.png" alt="maria orlova" class="reviews__switcher-img">
                 </a>
               </li>
             </ul>
@@ -431,8 +462,12 @@
       </li>
     </ul>
   </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="./js/member.js"></script>
   <script src="./js/fullscreenmenu.js"></script>
+  <script src="./js/tabs.js"></script>
 </body>
 
 </html>
