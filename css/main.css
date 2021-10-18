@@ -605,6 +605,7 @@ img {
   padding: 2.3333333333rem;
   overflow: hidden;
   position: relative;
+  height: 19.3333333333rem;
 }
 .reviews__display::before {
   content: "";
@@ -618,6 +619,17 @@ img {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   top: -3.6111111111rem;
+}
+
+.reviews__item {
+  position: absolute;
+  list-style: none;
+  opacity: 0;
+}
+.reviews__item.active {
+  position: static;
+  opacity: 1;
+  pointer-events: unset;
 }
 
 .reviews__display-inner {

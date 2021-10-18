@@ -20,6 +20,7 @@
   padding: rem(42px);
   overflow: hidden;
   position: relative;
+  height: rem(348px);
 
   &::before {
     content: "";
@@ -32,6 +33,18 @@
     left: 50%;
     transform: translateX(-50%);
     top: rem(-65px);
+  }
+}
+
+.reviews__item {
+  position: absolute;
+  list-style: none;
+  opacity: 0;
+
+  &.active {
+    position: static;
+    opacity: 1;
+    pointer-events: unset;
   }
 }
 
