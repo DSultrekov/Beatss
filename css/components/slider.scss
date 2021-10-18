@@ -17,13 +17,29 @@
 }
 
 .headphoness__img {
-  margin-right: rem(57px);
+  margin-right: rem(10px);
 }
 
 .settings-img {
   width: rem(91px);
   height: rem(91px);
+  margin-bottom: rem(25px);
 }
+
+.slider__main-title {
+  font-weight: bold;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #292929;
+  margin-bottom: rem(24px);
+}
+
+.slider__title-desc {
+  font-size: rem(16px);
+  color: #666666;
+  margin-bottom: rem(27px);
+}
+
 .arrowright__img {
   width: rem(14px);
   height: rem(27px);

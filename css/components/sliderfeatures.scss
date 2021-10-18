@@ -1,0 +1,24 @@
+.slider__features {
+  display: flex;
+  list-style: none;
+  margin-bottom: rem(24px);
+}
+
+.slider__features-item {
+  margin-right: rem(86px);
+}
+
+.features-heading {
+  font-size: 16px;
+  color: #666;
+}
+
+.features__text {
+  font-weight: bold;
+}
+
+.price__text {
+  margin-right: 13px;
+  font-weight: bold;
+  font-size: rem(36px);
+}

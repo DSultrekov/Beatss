@@ -1248,15 +1248,57 @@ img {
 }
 
 .headphoness__img {
-  margin-right: 3.1666666667rem;
+  margin-right: 0.5555555556rem;
 }
 
 .settings-img {
   width: 5.0555555556rem;
   height: 5.0555555556rem;
+  margin-bottom: 1.3888888889rem;
+}
+
+.slider__main-title {
+  font-weight: bold;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #292929;
+  margin-bottom: 1.3333333333rem;
+}
+
+.slider__title-desc {
+  font-size: 0.8888888889rem;
+  color: #666666;
+  margin-bottom: 1.5rem;
 }
 
 .arrowright__img {
   width: 0.7777777778rem;
   height: 1.5rem;
+}
+
+.slider__features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-bottom: 1.3333333333rem;
+}
+
+.slider__features-item {
+  margin-right: 4.7777777778rem;
+}
+
+.features-heading {
+  font-size: 16px;
+  color: #666;
+}
+
+.features__text {
+  font-weight: bold;
+}
+
+.price__text {
+  margin-right: 13px;
+  font-weight: bold;
+  font-size: 2rem;
 }
