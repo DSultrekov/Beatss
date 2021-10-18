@@ -17,8 +17,12 @@
   font-weight: bold;
 }
 
+.slider__price {
+  display: flex;
+  margin-right: rem(13px);
+}
+
 .price__text {
   margin-right: 13px;
-  font-weight: bold;
   font-size: rem(36px);
 }

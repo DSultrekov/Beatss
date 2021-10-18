@@ -1248,7 +1248,7 @@ img {
 }
 
 .headphoness__img {
-  margin-right: 0.5555555556rem;
+  margin-right: 3.2777777778rem;
 }
 
 .settings-img {
@@ -1297,8 +1297,14 @@ img {
   font-weight: bold;
 }
 
+.slider__price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 0.7222222222rem;
+}
+
 .price__text {
   margin-right: 13px;
-  font-weight: bold;
   font-size: 2rem;
 }
