@@ -2,6 +2,10 @@
   display: flex;
   list-style: none;
   margin-bottom: rem(24px);
+
+  @include tablets {
+    justify-content: center;
+  }
 }
 
 .slider__features-item {
@@ -20,9 +24,19 @@
 .slider__price {
   display: flex;
   margin-right: rem(13px);
+  
+  @include tablets {
+    justify-content: center;
+    margin-right: rem(45px);
+  }
+  
 }
 
 .price__text {
   margin-right: 13px;
   font-size: rem(36px);
+
+  @include tablets {
+    margin-right: rem(50px);
+  }
 }

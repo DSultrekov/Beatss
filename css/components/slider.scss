@@ -16,25 +16,28 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
 
-.arrowleft__img {
-  margin-right: rem(33px);
-  top: 0;
-  left: 0;
-  width: rem(14px);
-  height: rem(27px);
+  @include tablets {
+    flex-direction: column;
+  }
 }
 
 .headphoness__img {
-  margin-right: rem(59px);
-  margin-left: rem(30px)
+  @include tablets {
+    width: 306px;
+    height: 306px;
+    margin-bottom: rem(59px);
+  }
 }
 
 .settings-img {
   width: rem(91px);
   height: rem(91px);
   margin-bottom: rem(25px);
+
+  @include tablets {
+    display: none !important;
+  }
 }
 
 .slider__main-title {
@@ -43,12 +46,22 @@
   text-transform: uppercase;
   color: #292929;
   margin-bottom: rem(24px);
+
+  @include tablets {
+    font-size: 28px;
+    text-align: center;
+  }
+  
 }
 
 .slider__title-desc {
   font-size: rem(16px);
   color: #666666;
   margin-bottom: rem(27px);
+
+  @include tablets {
+    padding: 0 10%;
+  }
 }
 
 .arrowright__img {
