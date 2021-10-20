@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Beats</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
   <link rel="stylesheet" href="./css/main.css">
 </head>
 
@@ -139,34 +140,67 @@
       </section>
       <section class="section slider--section">
         <div class="container slider--container">
-          <img src="./img/arrowleft.png" alt="arrowleft" class="arrowleft__img">
-          <img src="./img/headphoness.png" alt="headphoness" class="headphoness__img">
-          <div class="slider__title-section">
-            <img src="./img/settings.png" alt="settings" class="settings-img">
-            <h1 class="slider__main-title">beats solo 3. цвет
-              «атласное серебро»</h1>
-            <div class="slider__title-desc">
-              <p>Беспроводные наушники Beats Solo3 готовы к работе в любой момент. Включите их и поднесите к своему
-                iPhone — они мгновенно подключатся к нему.</p>
-            </div>
-            <div class="slider__description-section">
-              <ul class="slider__features">
-                <li class="slider__features-item">
-                  <div class="features-heading">Зарядка</div>
-                  <div class="features__text">2 часа</div>
-                </li>
-                <li class="slider__features-item">
-                  <div class="features-heading">Вес</div>
-                  <div class="features__text">215 грамм</div>
-                </li>
-              </ul>
-              <div class="slider__price">
-                <p class="price__text">14 990 ₽</p>
-                <a href="#" class="btn btn--theme--red">Заказать</a>
-              </div>
-            </div>
+          <div class="product-slider__arows">
+            <a href="#" class="product-slider__arrow product-slider__arrow--direction--prev"></a>
+            <a href="#" class="product-slider__arrow product-slider__arrow--direction--next"></a>
           </div>
-          <img src="./img/arrowright.png" alt="arrowright" class="arrowright__img">
+          <ul class="slider">
+            <li class="slider__item">
+              <img src="./img/headphoness.png" alt="headphoness" class="headphoness__img">
+              <div class="slider__title-section">
+                <img src="./img/settings.png" alt="settings" class="settings-img">
+                <h1 class="slider__main-title">beats solo 3. цвет
+                  «атласное серебро»</h1>
+                <div class="slider__title-desc">
+                  <p>Беспроводные наушники Beats Solo3 готовы к работе в любой момент. Включите их и поднесите к своему
+                    iPhone — они мгновенно подключатся к нему.</p>
+                </div>
+                <div class="slider__description-section">
+                  <ul class="slider__features">
+                    <li class="slider__features-item">
+                      <div class="features-heading">Зарядка</div>
+                      <div class="features__text">2 часа</div>
+                    </li>
+                    <li class="slider__features-item">
+                      <div class="features-heading">Вес</div>
+                      <div class="features__text">215 грамм</div>
+                    </li>
+                  </ul>
+                  <div class="slider__price">
+                    <p class="price__text">14 990 ₽</p>
+                    <a href="#" class="btn btn--theme--red">Заказать</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="slider__item">
+              <img src="./img/redheadphoness.png" alt="headphoness" class="headphoness__img">
+              <div class="slider__title-section">
+                <img src="./img/settings.png" alt="settings" class="settings-img">
+                <h1 class="slider__main-title">beats solo pro. цвет «красный цитрус»</h1>
+                <div class="slider__title-desc">
+                  <p>Беспроводные наушники Solo Pro помогают настроиться на творчество. Для этого предусмотрено два
+                    режима прослушивания: режим с активным шумоподавлением и Прозрачный режим.</p>
+                </div>
+                <div class="slider__description-section">
+                  <ul class="slider__features">
+                    <li class="slider__features-item">
+                      <div class="features-heading">Зарядка</div>
+                      <div class="features__text">2 часа</div>
+                    </li>
+                    <li class="slider__features-item">
+                      <div class="features-heading">Вес</div>
+                      <div class="features__text">215 грамм</div>
+                    </li>
+                  </ul>
+                  <div class="slider__price">
+                    <p class="price__text">14 990 ₽</p>
+                    <a href="#" class="btn btn--theme--red">Заказать</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
       <section class="section team--section">
@@ -505,12 +539,12 @@
       </li>
     </ul>
   </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
   <script src="./js/member.js"></script>
   <script src="./js/fullscreenmenu.js"></script>
   <script src="./js/tabs.js"></script>
+  <script src="./js/slider.js"></script>
 </body>
 
 </html>

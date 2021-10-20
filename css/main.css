@@ -1240,6 +1240,16 @@ img {
 }
 
 .slider--container {
+  position: relative;
+}
+.slider--container .bx-wrapper {
+  border: 0 !important;
+  background: transparent !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.slider__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1261,6 +1271,7 @@ img {
 
 .headphoness__img {
   margin-right: 3.2777777778rem;
+  margin-left: 1.6666666667rem;
 }
 
 .settings-img {
@@ -1319,4 +1330,28 @@ img {
 .price__text {
   margin-right: 13px;
   font-size: 2rem;
+}
+
+.product-slider__arows {
+  position: relative;
+}
+
+.product-slider__arrow {
+  position: absolute;
+  background: url(../../img/arrowleft.png) center center no-repeat;
+  background-size: contain;
+  display: block;
+  width: 0.7777777778rem;
+  height: 1.5rem;
+  top: 50%;
+}
+
+.product-slider__arrow--direction--prev {
+  left: 0;
+}
+
+.product-slider__arrow--direction--next {
+  right: 0%;
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
 }

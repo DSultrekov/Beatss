@@ -2,7 +2,17 @@
   background: #f8faf9;
 }
 
-.slider--container {
+.slider--container{
+  position: relative;
+
+  .bx-wrapper {
+    border: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+
+.slider__item {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,6 +28,7 @@
 
 .headphoness__img {
   margin-right: rem(59px);
+  margin-left: rem(30px)
 }
 
 .settings-img {

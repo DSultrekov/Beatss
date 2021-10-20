@@ -1,0 +1,21 @@
+.product-slider__arows {
+  position: relative;
+}
+
+.product-slider__arrow {
+  position: absolute;
+  background: url(../../img/arrowleft.png) center center no-repeat;
+  background-size: contain;
+  display: block;
+  width: rem(14px);
+  height: rem(27px);
+  top: 50%;
+}
+
+.product-slider__arrow--direction--prev {
+  left: 0;
+}
+.product-slider__arrow--direction--next {
+  right: 0%;
+  transform: rotate(-180deg);
+}
