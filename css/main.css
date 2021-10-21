@@ -1285,6 +1285,10 @@ img {
   z-index: 10000;
 }
 
+.slider__dropdownmenu:hover > .dropdown__menu {
+  opacity: 1;
+}
+
 .settings-img {
   width: 5.0555555556rem;
   height: 5.0555555556rem;
@@ -1433,7 +1437,7 @@ img {
   position: absolute;
   top: 0%;
   right: 0%;
-  background: rgba(0, 0, 0, 0.06);
+  background: #f0f0f0;
   border-radius: 4px;
   width: 15.2777777778rem;
   height: 16.3888888889rem;
@@ -1441,6 +1445,7 @@ img {
   z-index: 0;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  z-index: -5000;
 }
 
 .dropdown__list {

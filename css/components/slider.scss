@@ -37,6 +37,14 @@
   z-index: 10000;
 }
 
+.slider__dropdownmenu {
+  
+  &:hover > .dropdown__menu{
+    opacity: 1;
+  }
+
+}
+
 .settings-img {
   width: rem(91px);
   height: rem(91px);
