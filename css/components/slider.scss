@@ -23,6 +23,8 @@
 }
 
 .headphoness__img {
+  margin-left: rem(35px);
+  margin-right: rem(59px);
   @include tablets {
     width: 306px;
     height: 306px;
@@ -30,10 +32,20 @@
   }
 }
 
+.slider__title-section {
+  z-index: 0;
+}
+
 .settings-img {
   width: rem(91px);
   height: rem(91px);
   margin-bottom: rem(25px);
+  cursor: pointer;
+  position: relative;
+
+  &:hover + .dropdown__menu{
+    opacity: 1;
+  }
 
   @include tablets {
     display: none !important;

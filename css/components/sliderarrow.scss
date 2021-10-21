@@ -6,12 +6,13 @@
   display: block;
   width: rem(14px);
   height: rem(27px);
-  top: 50%;
+  top: 40%;
   z-index: 100;
 }
 
 .product-slider__arrow--direction--prev {
   left: 0;
+  margin-right: rem(33px);
   
   @include tablets {
     left: 20%;
