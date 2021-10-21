@@ -1287,6 +1287,7 @@ img {
 
 .slider__dropdownmenu:hover > .dropdown__menu {
   opacity: 1;
+  top: 0%;
 }
 
 .settings-img {
@@ -1443,9 +1444,9 @@ img {
   height: 16.3888888889rem;
   list-style: none;
   z-index: 0;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  z-index: -5000;
+  -webkit-transition: 1s;
+  transition: 1s;
+  top: -1000px;
 }
 
 .dropdown__list {
@@ -1488,4 +1489,52 @@ img {
 
 .dropdown__item-numbers {
   margin-left: auto;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: none;
+}
+
+.modal__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  background: #fff;
+  width: 17.2222222222rem;
+  height: 10rem;
+}
+
+.modal__content {
+  margin-bottom: 2.2222222222rem;
+  font-size: 18px;
+  color: #000000;
+}
+
+.modal__button-container {
+  margin-bottom: 1.1111111111rem;
 }

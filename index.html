@@ -7,7 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Beats</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
   <link rel="stylesheet" href="./css/main.css">
+
 </head>
 
 <body>
@@ -621,12 +623,24 @@
       </li>
     </ul>
   </div>
+  <div id="modal" class="modal">
+    <div class="modal__container">
+      <div class="modal__content">
+        Сообщение отправлено
+      </div>
+      <div class="modal__button-container">
+        <a href="#" class="btn app-submit-btn btn--theme--red">Закрыть</a>
+      </div>
+    </div>
+  </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="./js/member.js"></script>
   <script src="./js/fullscreenmenu.js"></script>
   <script src="./js/tabs.js"></script>
   <script src="./js/slider.js"></script>
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
