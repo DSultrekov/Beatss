@@ -1280,8 +1280,9 @@ img {
   }
 }
 
-.slider__title-section {
-  z-index: 0;
+.slider__dropdownmenu {
+  position: relative;
+  z-index: 10000;
 }
 
 .settings-img {
@@ -1437,7 +1438,7 @@ img {
   width: 15.2777777778rem;
   height: 16.3888888889rem;
   list-style: none;
-  z-index: 10000;
+  z-index: 0;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }

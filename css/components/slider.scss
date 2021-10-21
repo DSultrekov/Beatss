@@ -32,8 +32,9 @@
   }
 }
 
-.slider__title-section {
-  z-index: 0;
+.slider__dropdownmenu {
+  position: relative;
+  z-index: 10000;
 }
 
 .settings-img {
