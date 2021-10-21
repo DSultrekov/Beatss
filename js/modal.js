@@ -21,7 +21,7 @@ $(".form").submit((e) => {
   const comment = form.find("[name='comment']");
   const to = form.find("[name='to']");
 
-  const modall = $("modal");
+  const modall = $(".modal");
   const content = modall.find(".modal__content")
 
   modall.removeClass("error-modal");
@@ -45,7 +45,7 @@ $(".form").submit((e) => {
       error: data => {
         const message = data.responseJSON.message;
         content.text(message);
-        modall.addClass("error-modal");
+        content.addClass("error-modal");
         modal.classList.add('modal__active');
       }
     });
