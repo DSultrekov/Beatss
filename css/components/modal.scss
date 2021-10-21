@@ -5,9 +5,16 @@
   width: 100%;
   height: 100%;
   display: flex;
+  background: rgba(00, 00, 00, .5);
   align-items: center;
   justify-content: center;
   display: none;
+}
+
+.modal__active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .modal__container {
@@ -31,3 +38,10 @@
   margin-bottom: rem(20px);
 }
 
+.input-error {
+  border-color: hotpink;
+}
+
+.error-modal {
+  color: red;
+}

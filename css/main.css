@@ -1500,6 +1500,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background: rgba(0, 0, 0, 0.5);
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1507,6 +1508,18 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   display: none;
+}
+
+.modal__active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .modal__container {
@@ -1537,4 +1550,12 @@ img {
 
 .modal__button-container {
   margin-bottom: 1.1111111111rem;
+}
+
+.input-error {
+  border-color: hotpink;
+}
+
+.error-modal {
+  color: red;
 }
