@@ -39,7 +39,7 @@ $(".form").submit((e) => {
         to: to.val(),
       },
       success: data => {
-        content.text(data.message)
+        content.text(data.message);
         modal.classList.add('modal__active');
       },
       error: data => {
