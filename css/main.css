@@ -1560,3 +1560,228 @@ img {
   color: red;
   padding: 0 27px;
 }
+
+.products-menu--section {
+  background: url("../img/products.png") center center/cover no-repeat;
+  position: relative;
+}
+
+.product-menu__title {
+  position: absolute;
+  color: #fff;
+  top: 15%;
+  left: 7%;
+}
+
+.product-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.products-menu__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  width: 5.6666666667rem;
+  height: 100%;
+  cursor: pointer;
+}
+
+.products-menu__title {
+  position: relative;
+  width: 100px;
+}
+
+.products-menu__title {
+  text-decoration: none;
+  bottom: auto;
+}
+
+.products-menu__text {
+  position: absolute;
+  color: #fff;
+  font-weight: bold;
+  font-size: 36px;
+  -webkit-transform: rotate(-90deg) translate(-50%, -50%);
+          transform: rotate(-90deg) translate(-50%, -50%);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  width: 380px;
+  left: 50%;
+  bottom: 20%;
+}
+
+.products-menu__content {
+  background: rgba(51, 53, 55, 0.9);
+  width: 0;
+  padding-top: 0px;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.products-menu__item_active > .products-menu__content {
+  width: 524px;
+  padding: 30px 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  opacity: 1;
+}
+
+.gray {
+  background: #999999;
+}
+
+.black {
+  background: #151515;
+}
+
+.red {
+  background: #E01F3C;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+}
+
+.map-section__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 4.7777777778rem;
+}
+@media screen and (max-width: 785px) {
+  .map-section__footer {
+    height: 5.9444444444rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .map-section__footer {
+    height: 151px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer--address {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+}
+
+.map-footer {
+  margin-left: 4.7777777778rem;
+}
+@media screen and (max-width: 785px) {
+  .map-footer {
+    margin-left: 1.6666666667rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .map-footer {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer__phone-number {
+    margin-left: 50px;
+    margin-bottom: 19px;
+    margin-top: 12px;
+  }
+}
+
+.footer-socials {
+  margin-right: 3rem;
+}
+@media screen and (max-width: 785px) {
+  .footer-socials {
+    margin-right: 2rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer-socials {
+    margin-right: 32px;
+  }
+}
+
+.socials {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.socials__item {
+  margin-right: 10px;
+}
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+.vk-icon {
+  width: 30px;
+  height: 30px;
+  fill: #b3b3b3;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.vk-icon:hover {
+  fill: #000000;
+}
+
+.fb-icon {
+  width: 30px;
+  height: 30px;
+  fill: #b3b3b3;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.fb-icon:hover {
+  fill: #000000;
+}
+
+.insta-icon {
+  width: 30px;
+  height: 30px;
+  fill: #b3b3b3;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.insta-icon:hover {
+  fill: #000000;
+}
+
+.tg-icon {
+  width: 30px;
+  height: 30px;
+  fill: #b3b3b3;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.tg-icon:hover {
+  fill: #000000;
+}
