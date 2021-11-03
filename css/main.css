@@ -1801,3 +1801,8 @@ img {
 .tg-icon:hover {
   fill: #000000;
 }
+
+.heigh__limitation {
+  max-height: 100vh;
+  overflow: hidden;
+}

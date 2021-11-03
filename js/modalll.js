@@ -1,8 +1,12 @@
-const modal = document.querySelector('.modal')
+const modal = document.querySelector('.modal');
+const body = document.querySelector('body');
 
 $('.form').submit(e => {
   e.preventDefault();
   modal.classList.add('modal__active');
+  body.classList.add('height__limitation');
+
+  
 
   const form = $(e.currentTarget);
   const name = form.find ("[name='name']");
@@ -25,4 +29,5 @@ $('.form').submit(e => {
 $('.app-submit-btn').click(e => {
   e.preventDefault();
   modal.classList.remove('modal__active');
+  body.classList.remove('height__limitation')
 })
