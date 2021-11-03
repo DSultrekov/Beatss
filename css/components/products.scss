@@ -13,24 +13,35 @@
 .product-menu {
   display: flex;
   justify-content: flex-end;
+  height: 100%;
+  z-index: 100;
 }
 
 .products-menu__item {
   display: flex;
   list-style: none;
-  width: rem(102px);
+  min-width: rem(100px);
   height: 100%;
   cursor: pointer;
+
+  @include phones {
+    min-width: rem(80px);
+  }
 }
 
 .products-menu__title {
   position: relative;
   width: 100px;
+
+  @include phones {
+    width: 80px;
+  }
 }
 
 .products-menu__title {
   text-decoration: none;
   bottom: auto;
+  z-index: 1;
 }
 
 .products-menu__text {
@@ -47,11 +58,14 @@
 
 .products-menu__content {
   background: rgba(51, 53, 55, 0.9);
-  width: 0;
-  padding-top: 0px;
+  width: 0px;
+  padding: 0px;
   overflow: hidden;
   opacity: 0;
-  transition: .7s ;
+  transition: .5s;
+  color: #fff;
+  font-weight: normal;
+  z-index: 100;
 }
 
 .products-menu__item_active > .products-menu__content {
