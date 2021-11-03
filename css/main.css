@@ -1803,6 +1803,6 @@ img {
 }
 
 .heigh__limitation {
-  max-height: 100vh;
+  height: 100vh;
   overflow: hidden;
 }

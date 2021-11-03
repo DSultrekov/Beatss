@@ -4,7 +4,7 @@ const body = document.querySelector('body');
 $('.form').submit(e => {
   e.preventDefault();
   modal.classList.add('modal__active');
-  body.classList.add('height__limitation');
+  body.classList.add('heigh__limitation');
 
   
 
@@ -29,5 +29,5 @@ $('.form').submit(e => {
 $('.app-submit-btn').click(e => {
   e.preventDefault();
   modal.classList.remove('modal__active');
-  body.classList.remove('height__limitation')
+  body.classList.remove('heigh__limitation')
 })
